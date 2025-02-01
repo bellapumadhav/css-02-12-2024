@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+        text-align: center;
+      }
+
+      .main {
+        border: 2px solid;
+        background-color: ;
+        height: 900px;
+      }
+
+      .div2 {
+        border: 2px solid;
+        width: 90px;
+        margin-left: 390px;
+        margin-top: -190px;
+        background-color: aqua;
+        padding: 30px;
+        height: 120px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      label:hover {
+    background-color: rgb(50, 50, 50);
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: none;
+      }
+      .div1:hover(#b:checked) ~ .div2 .content {
+        transform: rotate(10deg);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: rotate(45deg);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: rotateX(45deg);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: rotateY(45deg);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform:rotateZ(45deg);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: skew(30deg,30deg);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform:skewX(30deg);
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: skewY(40deg);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform:translate(20px,10px);
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform:translate(20px,20px);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: scale(2,2);
+      }
+      
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: scaleX(1.5);
+
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: scaleX(1.5);
+      }
+      .div1:hover(#a:checked) ~ .div2 .content {
+        transform: scaleY(1.5);
+      }
+      
+
+    </style>
+</head>
+<body>
+    
+    <h1>the tranform property</h1>
+    <div class="main">
+      <div class="div1">
+        <form action="">
+          <div class="madhav"><label for="a"></label>
+          <input type="radio" name="a" id="a" />transform: none;
+          <br /></div>
+          <label for="b"></label>
+          <input type="radio"name="a"  id="b" />transform: rotate(10deg);
+          <br />
+          <label for="c"></label>
+          <input type="radio" name="a" id="c" />transform: rotate(45deg);
+          <br />
+          <label for="c"></label>
+          <input type="radio" name="a"  id="c" />transform: rotateX(45deg);
+          <br />
+          <label for="d"></label>
+          <input type="radio" name="a" id="d" />transform: rotateY(45deg);
+          <br />
+          <label for="e"></label>
+          <input type="radio" name="a"  id="e" />transform: rotateZ(45deg);
+          <br />
+          <label for="f"></label>
+          <input type="radio" name="a"  id="f" />transform: skew(30deg,30deg);
+          <br />
+          <label for="g"></label>
+          <input type="radio" name="a" id="g" />transform: skewX(30deg);
+          <br />
+          <label for="h"></label>
+          <input type="radio" name="a"  id="h" />transform: skewY(40deg);
+          <br />
+          <label for="i"></label>
+          <input type="radio" name="a"  id="i" />transform: translate(20px,10px);
+          <br />
+          <label for="j"></label>
+          <input type="radio" name="a"  id="j" />transform: translate(20px,20px);
+          <br />
+          <label for="k"></label>
+          <input type="radio" name="a"  id="k" />transform: scale(2,2);
+          <br />
+          <label for="l"></label>
+          <input type="radio" name="a" id="l" />transform: scale(2,2);
+          <br />
+          <label for="m"></label>
+          <input type="radio" name="a"  id="m" />transform: scaleX(1.5);
+          <br />
+          <label for="n"></label>
+          <input type="radio"  name="a" id="n" />transform: scaleY(1.5);
+          <br />
+          <label for="orange"></label>
+          <input type="radio" name="a"  id="o" />transform: scaleY(1.5);
+          <br />
+        </form>
+        <div class="div2">
+          see what different tranform values does with this blue div element
+
+</body>
+</html>
